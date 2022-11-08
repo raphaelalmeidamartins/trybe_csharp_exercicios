@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise.Test/MyCSharpTypesExercise.Test.csproj": {}
+  },
+  "projects": {
+    "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise.Test/MyCSharpTypesExercise.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise.Test/MyCSharpTypesExercise.Test.csproj",
+        "projectName": "MyCSharpTypesExercise.Test",
+        "projectPath": "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise.Test/MyCSharpTypesExercise.Test.csproj",
+        "packagesPath": "/home/raphael/.nuget/packages/",
+        "outputPath": "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raphael/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise/MyCSharpTypesExercise.csproj": {
+                "projectPath": "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise/MyCSharpTypesExercise.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise/MyCSharpTypesExercise.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise/MyCSharpTypesExercise.csproj",
+        "projectName": "MyCSharpTypesExercise",
+        "projectPath": "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise/MyCSharpTypesExercise.csproj",
+        "packagesPath": "/home/raphael/.nuget/packages/",
+        "outputPath": "/media/raphael/arquivoslinux/Trybe/Aceleração de C#/trybe_csharp_exercicios/b02_tipos-de-variaveis-condicionais-e-loops/02.02_tipos-e-casting/MyCSharpTypesExercise/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raphael/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
